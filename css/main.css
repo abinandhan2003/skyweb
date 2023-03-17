@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Nunito:wght@200;300;400;500;600;700&family=Patrick+Hand&family=Poppins:wght@100;200;300;500&family=Raleway:wght@200;300;400&display=swap');
+*{    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+  }
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color:#ffffff;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#727272;
+}
+/* Header region */
+.header{
+    width: 100%;
+    /* height: 60px; */
+    position:sticky;
+    top: 0;
+    background-color: #ffffff;   
+    box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%);
+    display: flex;
+    align-items: end;
+    justify-content:left;
+    z-index: 100;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 120px;
+    height: 60px;          
+    margin-left: 5px;
+    transform: scale(0.8);
+}
+.header-items{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-btnitems{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.header-items:hover{
+    background-color: rgb(126, 126, 126);
+    color: #ffffff;
+    cursor: pointer;
+}
+.header-noitems{
+    width: 50%;
+    height: 60px;
+}
+/* Hero page */
+.hero-page{
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/heropage.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 55px;
+    font-weight: 200;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+     padding: 10%;
+}
+
+#colen{
+    font-family: 'IM Fell Great Primer', serif;
+
+}
+#symbol{
+    color: blue;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color:black;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  transform: translateX(-10px);
+  /* justify-content: center; */
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color:#ffc95c;
+}
+.third div {
+  background-color:#ff496b;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+/* project region */
+.project-page{
+    width: 100%;
+    /* height: 600px; */
+    background-color: #001E2B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding:5%;
+    margin-right: 10px;
+}
+.project-card{
+    width: 500px;
+    height: 250px;
+}
+.project-page > .card:hover{
+  transform: scaleX(10px);
+}
+.noneregion{
+  width: 100%;
+  height: 600px;
+  background-color: #001E2B;
+  padding: 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.inner-box{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+}
+.content-region{
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#pro-card:hover{
+  transform: scale(1.1);  
+}
+.skills-page{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.LAP{
+width: 100%;
+ height: 100%;
+transition: 0.3s ease-out;
+}
+.LAP:hover{
+  transition: 0.3s ease-in;
+ transform:scale(1.06)   ;
+}
+.skills-heading{
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  margin-top: 5%;
+}
+.card-p{
+  width: 90%; 
+  height: 100px !important;
+}
+.card-p:hover{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.about-content{
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  font-size: 40px;
+  color: #727272;
+  padding: 11%;
+}
+.about-heading{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: black;
+}
+.about-card{
+  width: 100%;
+  height: 150px;
+  background-color: #36bff1;
+}
+.card-s{
+  height: 140px !important;
+  width: 800px !important;
+  margin-top: 100px;
+  transform: translateY(83px);
+  transition: 0.5s ease-in;
+  background-color: #ffffff !important;
+  color: black !important;
+  border: 2px solid black !important;
+}
+/* footer */
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-1{
+  /* margin-top: 20px; */
+  color: #ffffff;
+}
+.footer2{
+  color: #ffffff;
+  text-decoration: none;
+}
+.card-title-1{
+  font-size: 35px;
+  font-weight: 700;
+}
+.card-text-1{
+  color:black;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Patrick Hand', cursive;
+}
+.card-s:hover{
+  transform:translateY(77px);
+}
+
+.position-fixed{
+  top: 50px;
+  left: 35%;
+  width: 30%;
+  height: fit-content;
+  z-index: 100;
+  background-color: #afcee0;
+  color:black;
+  padding: 3%;
+  border-radius: 10px;
+  margin-top: 5%;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(43, 44, 44, 0.521) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: none;
+}
+.position-fixed:hover{
+  box-shadow: rgba(6, 10, 250, 0.521) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+@media (min-width:0px) and (max-width:450px){
+  .header-noitems{
+    display: none;
+  }
+  .animation{
+    display: none;
+  }
+  #pro-card{
+    transform: scale(0.8);
+
+  }
+  .noneregion{
+    display: none;
+  }
+  #footer-card{
+    display: none;
+  }
+  .hero-page{
+    height: fit-content;
+  }
+  .about-content{
+    height: fit-content;
+    padding: 5%;
+    font-size: medium !important;
+  }
+  #empty-space{
+    display: none;
+  }
+  scroll-behavior:no-button;
+  
+}
